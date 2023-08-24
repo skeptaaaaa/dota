@@ -1,0 +1,122 @@
+h1{
+    text-align: center;
+color: rgb(177, 14, 14);
+}
+
+p{
+font-size: large;
+color: #4510c1;
+
+
+
+
+
+}
+
+.healine {
+color: aquamarine;
+
+
+
+
+
+
+
+}
+
+
+.bin{
+  border: 10px ridge rgb(21, 4, 4);
+    background-color: blueviolet;
+    transition: .5s;
+    color: aquamarine;
+    padding: 20px 30px;
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+border-radius: 100px;
+}
+
+.bin:hover{
+color: blue;
+background-color: brown;
+}
+
+
+   
+
+
+
+
+section{
+width: 100%;
+display: flex;
+background-color: rgb(8, 104, 18);
+} 
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+
+
+}
+header ul{
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 100%;
+
+
+}
+header a{
+color: rgb(255, 0, 0);
+text-decoration: none;
+transition: .3s;
+}
+header a:hover{
+    color: rgb(186, 0, 243);
+}
+.warning {
+    border: 10px ridge #f00;
+    background-color: rgb(13, 13, 12);
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .warning img {
+    width: 100%;
+  }
+  
+  .warning p {
+    font: small-caps bold 1.2rem sans-serif;
+    text-align: center;
+    color: #f00;
+  }
+  .shadowbox {
+    width: 15em;
+    border: 1px solid #330aeb;
+    box-shadow: 8px 8px 5px #6f0563;
+    padding: 8px 12px;
+    background-image: linear-gradient(180deg, #890d81, #d91212 40%, #5f10c1);
+  }
+  body{
+
+     background-image: url('дота.webp');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+  }
+  .one{
+border: 3px ridge #f00;
+border-radius: 30px;
+background-color: black;
+height: 400px;
+
+
+  }
+  .one p{
+    color: #d91212;
+  }
